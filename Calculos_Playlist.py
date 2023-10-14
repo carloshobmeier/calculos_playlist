@@ -1,6 +1,4 @@
 
-# Autor: Carlos Hobmeier
-
 import os
 import time
 
