@@ -6,12 +6,13 @@ import time
 
 
 # FUNÇÕES
-# limpar a tela do terminal
 
+# limpar a tela do terminal
 def limpar_tela():
     os.system('cls' if os.name == 'nt' else 'clear')
 limpar_tela()
 
+# atraso para facilitar a leitura
 def dormir():
     time.sleep(0.3)
 
