@@ -8,7 +8,6 @@ import time
 # limpar a tela do terminal
 def limpar_tela():
     os.system('cls' if os.name == 'nt' else 'clear')
-limpar_tela()
 
 # atraso para facilitar a leitura
 def dormir():
@@ -34,6 +33,7 @@ tempo_total_em_horas = 0
 
 
 # Boas vindas
+limpar_tela()
 print("\nSOFTWARE PARA CÁLCULO DE TEMPO DE PLAYLIST.")
 dormir()
 print("\nResponda as seguintes perguntas:\n")
